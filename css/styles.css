@@ -499,11 +499,6 @@ padding-bottom: 32px;
     fill: currentColor;
 }
 
-.clients-item {
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-}
-
 .clients-item:not(:last-child) {
     margin-right: 30px;
 }
@@ -515,11 +510,16 @@ padding-bottom: 32px;
     width: 170px;
     height: 92px;
     color: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
 }
+
+
 
 .clients-link:hover,
 .clients-link:focus {
     color: var(--primary-accent-color);
+    border-color: var(--primary-accent-color);
 }
 
 .clients-socials-icon {
